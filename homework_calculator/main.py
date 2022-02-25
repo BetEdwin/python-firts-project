@@ -19,7 +19,7 @@ def operation_mul(num, num1):
 
 def operation_div(num, num1):
     print("result  " + str(num / num1))
-
+while 1:
 print_welcome_message()
 menu_options()
 options=request_user_option()
