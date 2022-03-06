@@ -19,7 +19,7 @@ def operation_mul(num, num1):
 
 def operation_div(num, num1):
     print("result  " + str(num / num1))
-
+while True:
 print_welcome_message()
 menu_options()
 options=request_user_option()
@@ -41,9 +41,12 @@ elif options == 4:
         print("cannot be divided by 0")
     else:
         operation_div(num, num1)
-else:
-    print("---end---")
-
+ elif options == 5:
+      print("close_close")
+      break
+ else:
+    print("end_end")
+  
 
 
 
